@@ -1,8 +1,6 @@
 name: Danger
 
-on:
-  pull_request_target:
-    branches: [ master ]
+on: pull_request_target
 
 jobs:
   run:
